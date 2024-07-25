@@ -1,0 +1,5 @@
+a="ramya"
+             
+print(len(a))
+             
+5
