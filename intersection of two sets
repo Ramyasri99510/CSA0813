@@ -1,0 +1,6 @@
+X={1,2,3}
+             
+y={3,5,1}
+print(X.intersection(y))
+             
+{1, 3}
