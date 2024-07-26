@@ -1,0 +1,11 @@
+def add():
+    n1=int(input("enter the Number1:"))
+    n2=int(input("enter the Number2:"))
+    print("addition of {}+{} is {}".format(n1,n2,(n1+n2)))
+
+add()
+ o/p:
+enter the Number1:4
+enter the Number2:5
+addition of 4+5 is 9
+
