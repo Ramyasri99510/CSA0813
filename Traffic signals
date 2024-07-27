@@ -1,0 +1,7 @@
+A=str(input("enter the colour"))
+if(A=="red"):
+    print("stop")
+elif(A=="orange"):
+    print("grt ready")
+else:
+    print("GO SAFE")
