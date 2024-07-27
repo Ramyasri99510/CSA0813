@@ -1,0 +1,19 @@
+def area(r):
+    return(r*r*3.14)
+def area1(l,b):
+    return(l*b)
+def area2(s):
+    return(s*s)
+def area3(q,w):
+    return(1/2*q*w)
+a=int(input("enter the value for radius:"))
+print("Area is {}".format(area(a)))
+x=int(input("enter the vALUE FOR len:"))
+y=int(input("enter the value for ber:"))
+print("area of rec is {}".format(area1(x,y)))
+v=int(input("enter the value for squ:"))
+print("area of square is{}".format(area2(v)))
+s=int(input("enter the value for s:"))
+f=int(input("enter the value for f:"))
+print("area of triangle is{}".format(area3(s,f)))
+
