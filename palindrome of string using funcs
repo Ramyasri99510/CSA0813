@@ -1,0 +1,8 @@
+def palindrome():
+    a="madam"
+    b=a
+    if a==a[::-1]:
+        print("palindrome")
+    else:
+            print("not palindrome")
+palindrome()
