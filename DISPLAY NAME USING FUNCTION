@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void displayName(char name[]) {
+    printf("Name: %s\n", name);
+}
+
+int main() {
+    char myName[] = "RAMYA SRI";
+    displayName(myName);
+    
+    return 0;
+}
