@@ -1,0 +1,10 @@
+a=int(input("enter the value for a:"))
+b=int(input("enter the value for b:"))
+c=int(input("enter the value for c:"))
+d=(b*b-4*a*c)
+if(d==0):
+    print("same and real")
+elif(d>0):
+    print("different roots")
+else:
+    print("imageinary")
