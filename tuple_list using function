@@ -1,0 +1,6 @@
+def tuple_list():
+    tuple=(1,2,3,4,5)
+    l=list(tuple)
+    print(f"tuple to list is:{l}")
+
+tuple_list()
