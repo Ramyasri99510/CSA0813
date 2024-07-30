@@ -1,0 +1,4 @@
+def string_int():
+    s="3456"
+    i=int(s)
+    print(f"string_int is :{i}")
