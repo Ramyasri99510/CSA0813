@@ -1,0 +1,6 @@
+def list_tuple():
+    list=[1,2,3,4]
+    t=tuple(list)
+    print(f"list to tuple is:{t}")
+
+list_tuple()
