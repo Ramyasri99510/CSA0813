@@ -1,0 +1,10 @@
+a="happy birthay"
+print(a.center(19,"*"))
+
+print(a.count('happy'))
+
+print(a.replace('happy','wishyou happy'))
+
+b="happy"
+a='-'
+print(a.join(b))
