@@ -1,0 +1,4 @@
+a="have a great day"
+print(a.swapcase())
+
+print(a.split())
