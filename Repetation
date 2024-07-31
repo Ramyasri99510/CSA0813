@@ -1,0 +1,2 @@
+a="ramya is a good girl"
+print(5*a )
