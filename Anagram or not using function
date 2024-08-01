@@ -1,0 +1,11 @@
+def anagram_or_not(a,b):
+    if(sorted(a)==sorted(b)):
+        print("anagram")
+    else:
+        print("not anagram")
+
+a="listen"
+b="silent"
+
+anagram_or_not(a,b)
+ 
