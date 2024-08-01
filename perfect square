@@ -1,0 +1,5 @@
+n=4
+if(int(n**0.5)**2==n):
+    print(f"{n} perfect square")
+else:
+    print(f"{n} not a perfect square")
