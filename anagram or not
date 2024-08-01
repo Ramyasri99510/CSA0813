@@ -1,0 +1,7 @@
+a="ramya"
+b="marya"
+if(sorted(a)==sorted(b)):
+    print("anagram")
+else:
+    print("not anagram")
+ 
