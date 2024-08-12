@@ -12,3 +12,6 @@ for char in sentence:
         vowel_count += 1
     elif char in consonants:
         consonant_count += 1
+print(f"Vowels: {vowel_count}")
+print(f"Consonants: {consonant_count}")
+
