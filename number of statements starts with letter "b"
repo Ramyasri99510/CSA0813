@@ -1,0 +1,18 @@
+a="be you"
+b="be with me"
+c="an apple"
+count=0
+count_1=0
+count_2=0
+total=0
+for char in a:
+    if(char=="b"):
+        count+=1
+for char in b:
+    if(char=="b"):
+        count_1+=1
+for char in c:
+    if(char=="b"):
+        count_2+=1
+total=count+count_1+count_2
+print(total)
