@@ -1,0 +1,7 @@
+a="modi birthday @ september 17,#&$% is the wishes code for him"
+count=0
+for char in a:
+    if(char in "@#$%&"):
+        count=count+1
+        
+print(count)
