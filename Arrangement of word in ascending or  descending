@@ -1,0 +1,19 @@
+print("Enter names one by one. Type 'done' when you are finished:")
+names = []
+while True:
+    name = input()
+    if name.lower() == 'done':
+        break
+    names.append(name) 
+order = input("Order (A/D): ").strip().upper()
+if order == 'A':
+    sorted_names = sorted(names)
+elif order == 'D':
+    sorted_names = sorted(names, reverse=True)
+else:
+    print("Invalid order choice. Please enter 'A' for ascending or 'D' for descending.")
+    sorted_names = names
+print("\nSorted names:")
+for name in sorted_names:
+    print(name)
+
