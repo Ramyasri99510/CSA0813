@@ -1,0 +1,9 @@
+n=int(input("enter the income"))
+if(n<=150001):
+    print("no tax")
+elif(n<150001 and n>300000):
+    print(10%n)
+elif(n>300000 and n<500000):
+    print(20%n)
+elif(n>500001):
+    print(30%n)
